@@ -16,6 +16,10 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.config.alarm_alert=Hassium.ogg
 endif
 
+# FaceEnroll - Settings RRO
+ PRODUCT_PACKAGES += \
+     FaceEnrollSettingsOverlay
+
 # Media
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     media.recorder.show_manufacturer_and_model=true
