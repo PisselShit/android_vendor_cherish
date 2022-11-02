@@ -5,6 +5,10 @@ $(call inherit-product, vendor/cherish/config/common.mk)
 PRODUCT_PACKAGES += \
     vendor_charger_res_images
 
+# FaceEnroll - Settings RRO
+ PRODUCT_PACKAGES += \
+     FaceEnrollSettingsOverlay
+
 # Media
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     media.recorder.show_manufacturer_and_model=true
